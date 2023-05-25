@@ -1,13 +1,15 @@
-# Our models to detect plastic and papar on the conveyer belt
+# Automatic Detection of Plastic and Paper on Conveyor Belt
+The repository contains models for automatic detection and classification of plastic and paper waste on a conveyor belt. The goal is to develop a systemthat can identify different types of derbis on the belt and make decisions on whether to discard each object. The models included in this repository are YOLOv8n, Detection Transformer by Facebook and YOLO NAS.
 ## 1. Creating the dataset
 ### 1.1 Problem
-We neeed to create a system for automatic detection of different types of waste on the conveyor belt. There are types of debris to be sorted from the belt and which must continue on their way. The model is required to detect the presence of trash on the conveyor belt, then classify each object individually and decide whether to discard the object or not. To simplify the task, we will classify only plastic and paper.
+The objective is to create a system for the automatic detection of various types of waste on a conveyor belt. The system needs to identify the presence of trash, classify each object individually, and make informed decisions on whether to discard the object or not. For simplicity, the classification task focuses on plastic and paper waste.
 ### 1.2 Labeling own photo 
-Using computer vision annotation [tool](https://app.cvat.ai/tasks?page=1) 345 photos were labeled
+
+We labeled 345 photos using a computer vision annotation [tool](https://app.cvat.ai/tasks?page=1). The annotated photos are representative of the waste objects we aim to detect. 
 
 <img src = "https://github.com/BGDNick/trash/blob/main/labeled_photo.png" width="800" height="800" />
                     
-## 2. YOLO8
+## 2. YOLOv8n
 The [notebook](https://github.com/BGDNick/trash/blob/main/Yolo8_Detector.ipynb) describes the procedure for training and validation
 
 Here you can see the results:
@@ -34,10 +36,10 @@ Here you can see the results:
 
 Model | Time in ms | mAP50 | mAP50-95 
 --- | --- | --- | --- 
-YOLO8 | 50 | 0.98 | 0.85 
+YOLOv8n | 50 | 0.98 | 0.85 
 DETR | 250 | 0.84 | 0.82
-YOLO NAS | 1170 | 0.89 | Nan
+YOLO NAS | 1170 | 0.89 | 0.71
 
-In our work, we found that YOLO8 is better suited for our task and showed better results in speed in quality
+Based on our work, we found that YOLOv8n is better suited for this task, as it demonstrated faster processing times and higher quality results.
 
 
