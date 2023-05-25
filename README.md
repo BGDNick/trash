@@ -17,8 +17,9 @@ The objective is to create a system for the automatic detection of various types
 We labeled 345 photos using a computer vision annotation [tool](https://app.cvat.ai/tasks?page=1). The annotated photos are representative of the waste objects we aim to detect. 
 
 <img src = "https://github.com/BGDNick/trash/blob/main/labeled_photo.png" width="800" height="800" />
-                    
-## 2. YOLOv8n<a name="#yolo8"></a>
+
+<a name="#yolo8"></a>
+## 2. YOLOv8n 
 The [notebook](https://github.com/BGDNick/trash/blob/main/Yolo8_Detector.ipynb) describes the procedure for training and validation
 
 Here you can see the results:
