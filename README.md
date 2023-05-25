@@ -17,14 +17,14 @@ Here you can see the results:
 <img src = "https://github.com/BGDNick/trash/blob/main/YOLO8_detection.png" width="800" height="800" />
 
 ## 3. Detection Transformer by Facebook
-The [notebook](https://github.com/BGDNick/trash/blob/main/DETR_and_YoloNAS_Detector.ipynb) describes the procedure for training and validation
+The [notebook](https://github.com/BGDNick/trash/blob/main/DETR_and_YoloNAS_Detectors.ipynb) describes the procedure for training and validation
 
 Here you can see the results:
 
 <img src = "https://github.com/BGDNick/trash/blob/main/DETR_detection.png" width="800" height="800" />
 
 ## 4. YOLO NAS
-The [notebook](https://github.com/BGDNick/trash/blob/main/DETR_and_YoloNAS_Detector.ipynb) describes the procedure for training and validation
+The [notebook](https://github.com/BGDNick/trash/blob/main/DETR_and_YoloNAS_Detectors.ipynb) describes the procedure for training and validation
 
 Here you can see the results:
 
